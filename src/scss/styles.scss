@@ -38,7 +38,14 @@ body {
     color: lightblue;
 }
 
+/* Style for hover effect on login button */
+.btn-primary {
+    background-color: black;
+}
 
+.btn-primary:hover {
+    background-color: #81CFC2;
+}
 
 
 @media (max-width: 800px) {
