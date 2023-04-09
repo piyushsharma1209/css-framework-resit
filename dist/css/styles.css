@@ -1,0 +1,152 @@
+@import"/node_modules/bootstrap/dist/css/bootstrap.css";
+
+body {
+    background-color: #8dbde7;
+    margin: 0;
+    font-family: "Open Sans", sans-serif
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #81cfc2
+}
+
+.no-padding {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.masthead {
+    background-size: cover;
+    min-height: 60vh;
+    position: relative;
+    color: #fff
+}
+
+h4 {
+    background-color: rgba(0, 0, 0, .56);
+    padding-top: 13px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 4px;
+    margin-top: 300px
+}
+
+.hero-text {
+    background-color: rgba(255, 255, 255, .56);
+    color: #000;
+    padding-top: 13px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 4px
+}
+
+.color-overlay {
+    height: 100%
+}
+
+.color-overlay-2 {
+    width: 100%;
+    height: 100%
+}
+
+.text-center {
+    position: relative;
+    color: #fff;
+    justify-content: center;
+    margin-top: 50px
+}
+
+.card {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    color: #fff
+}
+
+.card .card-header {
+    background-color: #81cfc2;
+    padding: 20px
+}
+
+.card .card-body {
+    color: #000;
+    margin: 10px
+}
+
+footer {
+    margin: 0
+}
+
+footer p {
+    margin: 0;
+    color: #8d8d8d
+}
+
+footer a i {
+    font-size: 24px;
+    margin: 0 10px
+}
+
+@media(max-width: 767px) {
+    footer p {
+        font-size: 14px
+    }
+
+    footer a i {
+        font-size: 18px;
+        margin: 0 5px
+    }
+}
+
+@media(max-width: 800px) {
+    .img {
+        width: 100%;
+        height: 100%
+    }
+
+    .masthead {
+        min-height: 30vh
+    }
+
+    h4 {
+        font-size: calc(.2rem + 3.3vw);
+        margin-top: 150px
+    }
+
+    .hero-text {
+        display: none
+    }
+
+    .color-overlay {
+        height: 100%;
+        justify-content: center
+    }
+
+    .text-center {
+        margin-top: 30px
+    }
+
+    .card {
+        color: #fff;
+        margin: 15px
+    }
+
+    .card .card-header {
+        background-color: #81cfc2;
+        padding: 20px
+    }
+
+    .card .card-body {
+        color: #000;
+        margin: 10px
+    }
+}
+
+@media(max-width: 576px) {
+    .header {
+        font-size: 2rem
+    }
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,73 @@
+@import "/node_modules/bootstrap/dist/css/bootstrap.css";
+@import "/node_modules/bootstrap/scss/bootstrap.scss";
+@import "scss/variables";
+@import "scss/mixins";
+@import "scss/navbar";
+@import "scss/masthead";
+@import "scss/cards";
+@import "scss/footer";
+
+body {
+    background-color: $background-color;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+@media (max-width: 800px) {
+
+    /* Adjust the padding of the text-block on small screens */
+    .img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .masthead {
+        min-height: 30vh;
+    }
+
+    h4 {
+        font-size: calc(0.2rem + 3.3vw);
+        margin-top: 150px;
+    }
+
+    .hero-text {
+        display: none;
+    }
+
+    .color-overlay {
+        height: 100%;
+        justify-content: center;
+    }
+
+    .text-center {
+        margin-top: 30px;
+    }
+
+    .card {
+        color: white;
+        margin: 15px;
+    }
+
+    .card .card-header {
+        background-color: #81CFC2;
+        padding: 20px;
+    }
+
+    .card .card-body {
+        color: black;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    /* Adjust the font size of the heading on extra small screens */
+    .header {
+        font-size: 2rem;
+    }
+}

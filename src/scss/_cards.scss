@@ -1,0 +1,32 @@
+.card {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    color: white;
+
+    .card-header {
+        background-color: $card-header-bg-color;
+        padding: 20px;
+    }
+
+    .card-body {
+        color: black;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 800px) {
+    .card {
+        color: white;
+        margin: 15px;
+
+        .card-header {
+            background-color: $card-header-bg-color;
+            padding: 20px;
+        }
+
+        .card-body {
+            color: black;
+            margin: 10px;
+        }
+    }
+}

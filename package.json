@@ -1,0 +1,28 @@
+{
+  "name": "css-framework-resit",
+  "version": "1.0.0",
+  "description": "Resit project for css framework",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass src/scss:dist/css",
+    "watch": "sass --watch src/scss:dist/css & live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piyushsharma1209/css-framework-resit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piyushsharma1209/css-framework-resit/issues"
+  },
+  "homepage": "https://github.com/piyushsharma1209/css-framework-resit#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "sass": "^1.61.0"
+  }
+}
