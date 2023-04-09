@@ -1,11 +1,11 @@
-@import "/node_modules/bootstrap/dist/css/bootstrap.css";
-@import "/node_modules/bootstrap/scss/bootstrap.scss";
-@import "scss/variables";
-@import "scss/mixins";
-@import "scss/navbar";
-@import "scss/masthead";
-@import "scss/cards";
-@import "scss/footer";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../scss/variables";
+@import "../scss/navbar";
+@import "../scss/cards";
+@import "../scss/footer";
+@import "../scss/masthead";
+@import "../scss/mixins";
+
 
 body {
     background-color: $background-color;
@@ -17,6 +17,29 @@ body {
     padding-left: 0;
     padding-right: 0;
 }
+
+.text-center {
+    color: white;
+    margin-top: 30px;
+}
+
+/* Style the Previous link */
+.pagination .page-item:first-child .page-link {
+    color: gray;
+}
+
+/* Style the Next link */
+.pagination .page-item:last-child .page-link {
+    color: lightblue;
+}
+
+/* Style the number links */
+.pagination .page-item .page-link {
+    color: lightblue;
+}
+
+
+
 
 @media (max-width: 800px) {
 
